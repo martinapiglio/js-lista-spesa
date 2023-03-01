@@ -45,3 +45,28 @@ let addItemButton = document.getElementById('add-item-button');
             console.log(inputNewItem);
             console.log(addItemButton);
             // /check
+
+
+addItemButton.addEventListener('click', function () {
+
+    if (inputNewItem.value !='') {
+        
+        //add new item to shopping list array variable
+        shoppingList.push(inputNewItem.value);
+
+        //create a new element (new list item);
+        let newListItem = document.createElement('li');
+
+        //append this new element to the shopping list HTML element;
+        shoppingListEl.append(newListItem);
+
+        //write the list item value;
+        newListItem.innerHTML = inputNewItem.value;
+
+    };
+
+            //check
+            console.log(shoppingList);
+            // /check
+
+});
