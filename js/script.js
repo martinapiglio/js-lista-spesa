@@ -19,10 +19,10 @@ let shoppingList = ['pane','latte','uova','caffè','pasta','frutta','detersivo']
 let shoppingListEl = document.getElementById("shopping-list");
 let i = 0;
 
-//check
-console.log(shoppingList);
-console.log(shoppingListEl);
-// /check
+        //check
+        console.log(shoppingList);
+        console.log(shoppingListEl);
+        // /check
 
 //WHILE cycle
 while (i < shoppingList.length) {
@@ -35,3 +35,13 @@ while (i < shoppingList.length) {
 
     i++;
 };
+
+
+//BUTTON: insert new element list
+let inputNewItem = document.getElementById('input-new-item');
+let addItemButton = document.getElementById('add-item-button');
+
+            //check
+            console.log(inputNewItem);
+            console.log(addItemButton);
+            // /check
