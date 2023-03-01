@@ -5,3 +5,25 @@
     box-sizing: border-box;
 }
 /* /common */
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 2em;
+    padding: 2em;
+
+    font-family: sans-serif;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.container header,
+.container main ul li:last-child {
+    padding-bottom: .8em;
+}
+
+.container main ul {
+    list-style-position: inside;
+    list-style-type: circle;
+    line-height: 1.4em;
+}
