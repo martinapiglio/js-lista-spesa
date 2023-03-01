@@ -13,3 +13,13 @@ console.log('test');
         iv - the index must be +1 in order to avoid the infinite cycle;
 3 - insert a button in order to add new elements to the list.
 */
+
+//VARIABLES
+let shoppingList = ['pane','latte','uova','caffè','pasta','frutta','detersivo'];
+let shoppingListEl = document.getElementById("shopping-list");
+let i = 0;
+
+console.log(shoppingList);
+console.log(shoppingListEl);
+
+
